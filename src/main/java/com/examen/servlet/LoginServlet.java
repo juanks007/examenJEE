@@ -59,7 +59,7 @@ public class LoginServlet extends HttpServlet {
 		usuarioTienda.add(
 				new Usuario(123, "robin", "123410", "Roberto", "ALi", "operador"));
 		usuarioTienda.add(
-				new Usuario(123, "franz", "123411", "Francisco", "Quispe", "operador"));
+				new Usuario(123, "ffranz", "123411", "Francisco", "Quispe", "operador"));
 		
 		List<Usuario> usuarios = getUsuarioLogoeado(usuarioTienda);
 		if(!usuarios.isEmpty()) {
